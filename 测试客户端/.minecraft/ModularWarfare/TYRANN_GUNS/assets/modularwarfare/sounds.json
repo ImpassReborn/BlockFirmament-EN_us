@@ -1,0 +1,197 @@
+{
+    "thm.m1014.shoot": {
+        "category": "player",
+        "sounds": [
+          "modularwarfare:m1014/shoot"
+        ]
+             },
+    "thm.ak109.shoot": {
+        "category": "player",
+        "sounds": [
+          "modularwarfare:ak109/shoot"
+       ]
+            },
+    "thm.an94.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:an94/shoot"
+             ]
+                  },        
+    "thm.hk417.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:hk417/shoot"
+              ]
+    }
+    ,
+    "thm.pkm.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:pkm/shoot"
+              ]
+    }
+    ,
+    "thm.acr.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:acr/shoot"
+              ]
+    }
+    ,
+    "thm.m1911.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:m1911/shoot"
+              ]
+    }
+    ,
+    "thm.m200.shoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:m200/shoot"
+              ]
+    }
+    ,
+    "thm.762Sound": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/762Sound"
+              ]
+    }
+    ,
+    "thm.DLMG50": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/DLMG50"
+              ]
+    }
+    ,
+    "thm.E01Fire": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/E01Fire"
+              ]
+    }
+    ,
+    "thm.EMC3": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/EMC3"
+              ]
+    }
+    ,
+    "thm.F1Fire": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/F1Fire"
+              ]
+    }
+    ,
+    "thm.GE02Fire": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/GE02Fire"
+              ]
+    }
+    ,
+    "thm.I1Fire": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/I1Fire"
+              ]
+    }
+    ,
+    "thm.K1Shock": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/K1Shock"
+              ]
+    }
+    ,
+    "thm.lsgShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/lsgShoot"
+              ]
+    }    ,
+    "thm.M156": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/M156"
+              ]
+    }    ,
+    "thm.MAShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/MAShoot"
+              ]
+    }    ,
+    "thm.mcShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/mcShoot"
+              ]
+    }    ,
+    "thm.mgShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/mgShoot"
+              ]
+    }    ,
+    "thm.mrmShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/mrmShoot"
+              ]
+    }    ,
+    "thm.P1Shock": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/P1Shock"
+              ]
+    }    ,
+    "thm.sgShoot": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/sgShoot"
+              ]
+    }
+    ,
+    "thm.Type75": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/Type75"
+              ]
+    }
+    ,
+    "thm.Type77": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/Type77"
+              ]
+    }    ,
+    "thm.Type80": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/Type80"
+              ]
+    }    ,
+    "thm.Type80M": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/Type80M"
+              ]
+    }    ,
+    "thm.Type95AT": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/Type95AT"
+              ]
+    }    ,
+    "thm.SC44": {
+              "category": "player",
+              "sounds": [
+                "modularwarfare:gun/SC44"
+              ]
+    }
+  }

@@ -1,0 +1,230 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  JustEnoughIDs Extension Plugin (JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar)
+  XaeroMinimapPlugin (Xaeros_Minimap_22.2.0.1_Forge_1.12.jar)
+  modularwarfare (modularwarfare-1.1.1f.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.146.jar)
+  ModularMovementsPlugin (modularmovements-1.0.1f.jar)
+  EngineersDoorsLoadingPlugin ([im]engineers_doors-1.12.2-0.9.1.jar)
+Contact their authors BEFORE contacting forge
+
+// This doesn't make any sense!
+
+Time: 3/13/22 6:42 PM
+Description: Initializing game
+
+java.lang.NoClassDefFoundError: kotlin/TypeCastException
+	at net.shadowfacts.clipboard.Clipboard.<init>(Clipboard.kt:29)
+	at net.shadowfacts.clipboard.Clipboard.<clinit>(Clipboard.kt:23)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:539)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.ClassNotFoundException: kotlin.TypeCastException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 40 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 42 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.shadowfacts.clipboard.Clipboard.<init>(Clipboard.kt:29)
+	at net.shadowfacts.clipboard.Clipboard.<clinit>(Clipboard.kt:23)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:539)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 93284952 bytes (88 MB) / 452984832 bytes (432 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 42 mods loaded, 42 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                   | Version              | Source                                             | Signature                                |
+	|:----- |:-------------------- |:-------------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LC    | minecraft            | 1.12.2               | minecraft.jar                                      | None                                     |
+	| LC    | mcp                  | 9.42                 | minecraft.jar                                      | None                                     |
+	| LC    | FML                  | 8.0.99.99            | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | forge                | 14.23.5.2860         | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | xaerominimap_core    | 1.12.2-1.0           | minecraft.jar                                      | None                                     |
+	| LC    | ironchest            | 1.12.2-7.0.67.844    | []ironchest-1.12.2-7.0.72.847.jar                  | None                                     |
+	| LC    | crafttweaker         | 4.1.20               | [CRT]CraftTweaker2-1.12-4.1.20.635.jar             | None                                     |
+	| LC    | ctgui                | 1.0.0                | [CRT]CraftTweaker2-1.12-4.1.20.635.jar             | None                                     |
+	| LC    | mtlib                | 3.0.6                | [LIB]MTLib-3.0.6.jar                               | None                                     |
+	| LC    | modtweaker           | 4.0.18               | [CRT]modtweaker-4.0.18.jar                         | None                                     |
+	| LC    | jei                  | 4.16.1.302           | [NEI]jei_1.12.2-4.16.1.302.jar                     | None                                     |
+	| LC    | crafttweakerjei      | 2.0.3                | [CRT]CraftTweaker2-1.12-4.1.20.635.jar             | None                                     |
+	| LC    | mtrm                 | 1.2.2.30             | [CRT]MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar    | None                                     |
+	| LC    | infinityeditor       | 0.14.3               | [Edit]infinityeditor-0.14.3.jar                    | None                                     |
+	| LC    | immersiveengineering | 0.12-98              | [im]ImmersiveEngineering-0.12-98.jar               | None                                     |
+	| LC    | engineersdoors       | 0.9.1                | [im]engineers_doors-1.12.2-0.9.1.jar               | None                                     |
+	| LC    | immersivetech        | 1.3.10               | [im]immersivetech-1.12-1.3.10.jar                  | None                                     |
+	| LC    | codechickenlib       | 3.2.3.358            | [LIB]CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | mcmultipart          | 2.5.3                | [LIB]MCMultiPart-2.5.3.jar                         | None                                     |
+	| LC    | redstoneflux         | 2.1.1                | [LIB]RedstoneFlux-1.12-2.1.1.1-universal.jar       | None                                     |
+	| LC    | shadowmc             | 3.8.0                | [LIB]ShadowMC-1.12-3.8.0.jar                       | None                                     |
+	| LC    | mcwdoors             | 1.3                  | [MCW]mcw-doors-1.0.3-mc1.12.2.jar                  | None                                     |
+	| LC    | mcwwindows           | 1.0                  | [MCW]mcw-windows-1.0.0-mc1.12.2.jar                | None                                     |
+	| LC    | customnpcs           | 1.12                 | [NPC]CustomNPCs_1.12.2-(05Jul20).jar               | None                                     |
+	| LC    | campfire             | 1.2                  | [营火]campfire-1.12-v1.2.jar                         | None                                     |
+	| L     | clipboard            | @VERSION@            | [记事本]Clipboard-1.12-1.3.0.jar                      | None                                     |
+	| L     | atum                 | 2.0.20               | Atum-1.12.2-2.0.20.jar                             | None                                     |
+	| L     | betterpingdisplay    | 1.0                  | BetterPingDisplay-1.12.2-1.0.jar                   | None                                     |
+	| L     | cocricotmod          | 1.10.3               | cocricotMOD for 1.12.2 v1.10.3.jar                 | None                                     |
+	| L     | custommc             | 1.0v                 | CustomMC-1.12.2.jar                                | None                                     |
+	| L     | damagetilt           | 0.1.0                | DamageTilt-1.12.2-0.1.0.jar                        | None                                     |
+	| L     | illagers_plus        | 1.1                  | IllagersPlus-1.12.2-1.1.3.jar                      | None                                     |
+	| L     | immersiveposts       | 0.1.5                | ImmersivePosts-0.1.5.jar                           | None                                     |
+	| L     | inventorytweaks      | 1.64+dev.146.2180b27 | InventoryTweaks-1.64+dev.146.jar                   | None                                     |
+	| L     | jeid                 | 1.0.4-SNAPSHOT       | JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar              | None                                     |
+	| L     | mca                  | 6.1.0                | MCA-1.12.2-6.1.0-universal.jar                     | None                                     |
+	| L     | modularmovements     | ${version}           | modularmovements-1.0.1f.jar                        | None                                     |
+	| L     | modularwarfare       | 1.1.1f               | modularwarfare-1.1.1f.jar                          | None                                     |
+	| L     | harvestcraft         | 1.12.2zb             | Pam's+HarvestCraft+1.12.2zg.jar                    | None                                     |
+	| L     | xaerominimap         | 22.2.0.1             | Xaeros_Minimap_22.2.0.1_Forge_1.12.jar             | None                                     |
+	| L     | w2w                  | 1.2.1                | w2w-1.2.1.jar                                      | None                                     |
+	| L     | betteranimalsplus    | 9.0.1                | betteranimalsplus-1.12.2-9.0.1.jar                 | None                                     |
+
+	Loaded coremods (and transformers): 
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+JustEnoughIDs Extension Plugin (JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar)
+  org.dimdev.jeid.JEIDTransformer
+XaeroMinimapPlugin (Xaeros_Minimap_22.2.0.1_Forge_1.12.jar)
+  xaero.common.core.transformer.ChunkTransformer
+  xaero.common.core.transformer.NetHandlerPlayClientTransformer
+  xaero.common.core.transformer.EntityPlayerTransformer
+  xaero.common.core.transformer.AbstractClientPlayerTransformer
+  xaero.common.core.transformer.WorldClientTransformer
+  xaero.common.core.transformer.EntityPlayerSPTransformer
+  xaero.common.core.transformer.PlayerListTransformer
+  xaero.common.core.transformer.GuiIngameForgeTransformer
+  xaero.common.core.transformer.GuiBossOverlayTransformer
+  xaero.common.core.transformer.ModelRendererTransformer
+modularwarfare (modularwarfare-1.1.1f.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.146.jar)
+  invtweaks.forge.asm.ContainerTransformer
+ModularMovementsPlugin (modularmovements-1.0.1f.jar)
+  mchhui.modularmovements.coremod.minecraft.EntityPlayerSP
+  mchhui.modularmovements.coremod.minecraft.Entity
+EngineersDoorsLoadingPlugin ([im]engineers_doors-1.12.2-0.9.1.jar)
+  nihiltres.engineersdoors.common.asm.EngineersDoorsClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 496.76' Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+	Launched Version: HMCL 3.3.172
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 496.76, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: West_Prime's+FullHD+Font.zip (incompatible), cocricot for 1.12.2 v1.10.3.zip, Jappa's+1.14+Glass+1.11-1.12.zip, Luminous1.12.2.zip
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 6x Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: BSL_v8.1_标准_BreakingCage.zip
+	OpenGlVersion: 4.6.0 NVIDIA 496.76
+	OpenGlRenderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 6

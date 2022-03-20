@@ -1,0 +1,81 @@
+{
+    "internalName": "thm.mg03",
+    "displayName": "MG03-?Í¨ÓÃ»úÇ¹",
+    "weaponType": "carbine",
+
+    "gunDamage": 12,
+    "gunDamageHeadshotBonus": 2,
+
+    "roundsPerMin": 1200,
+
+    "allowEmptyMagazines": true,
+
+    "recoilPitch": 5.5,
+    "recoilYaw": 1.5,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.8,
+    "bulletSpread": 1.2,
+
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 0.9,
+    "allowSprintFiring": true,
+
+    "fireModes": ["full", "semi"],
+    "acceptedAmmo": ["thm.7_92x57mag35","thm.7_92x57mag75","thm.7_92x57mag150"],
+
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 1.0
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "thm.ak109.shoot",
+                "soundNameDistant": "prototype.ak47.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "prototype.ak47.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 30,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+            "prototype.ak47_suppressor"
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "thm.mg03",
+            "skinAsset": "thm.mg03",
+            "displayName": "Default"
+        },
+        {
+            "internalName": "prototype.ak47.urban",
+            "skinAsset": "prototype.ak47.urban",
+            "displayName": "Urban"
+        }
+    ]
+}

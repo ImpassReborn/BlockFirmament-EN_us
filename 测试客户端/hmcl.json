@@ -1,0 +1,88 @@
+{
+  "last": "Default",
+  "backgroundType": "DEFAULT",
+  "commonDirType": "DEFAULT",
+  "commonpath": "C:\\Users\\Tyrant R.SKY-20191010VAE\\AppData\\Roaming\\.minecraft",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": "HTTP",
+  "proxyPort": 0,
+  "width": 834.0,
+  "height": 514.0,
+  "theme": "#5c6bc0",
+  "localization": "def",
+  "downloadType": "bmclapi",
+  "configurations": {
+    "Default": {
+      "global": {
+        "usesGlobal": true,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 4096,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "1.8.0_202",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": "C:\\Program Files\\Java\\jdk1.8.0_202\\jre\\bin\\java.exe"
+      },
+      "gameDir": ".minecraft",
+      "useRelativePath": true,
+      "selectedMinecraftVersion": "1.12.2"
+    },
+    "Home": {
+      "global": {
+        "usesGlobal": false,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 4096,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": ""
+      },
+      "gameDir": "C:\\Users\\Tyrant R.SKY-20191010VAE\\AppData\\Roaming\\.minecraft",
+      "useRelativePath": false,
+      "selectedMinecraftVersion": ""
+    }
+  },
+  "accounts": [
+    {
+      "uuid": "62914325760f3bf29db411598aeff167",
+      "username": "NORINCO",
+      "type": "offline",
+      "selected": true
+    }
+  ],
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 500,
+  "authlibInjectorServers": [],
+  "updateChannel": "STABLE",
+  "_version": 0,
+  "uiVersion": 0
+}

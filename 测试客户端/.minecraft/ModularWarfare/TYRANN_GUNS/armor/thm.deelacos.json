@@ -1,0 +1,19 @@
+{
+    "internalName": "thm.deelacos",
+    "defense": "0.25",
+    "durability": 3500,
+    "armorTypes": 
+    {
+        "vest":
+        {
+            "displayName": "德拉库斯钢铁利刃"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "thm.deelacos",
+        "displayName": "德拉库斯钢铁利刃"
+      }
+    ]
+}

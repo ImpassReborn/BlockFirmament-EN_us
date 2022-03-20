@@ -1,0 +1,10 @@
+{
+    "internalName": "thm.7_92x57mag35",
+    "displayName": "7.92x57mm 35Rnd Mg03",
+    "ammoCapacity": 35,
+    "magazineCount": 1,
+    "subAmmo": [
+        "thm.7_92x57"
+    ],
+    "allowEmptyMagazines": true
+}

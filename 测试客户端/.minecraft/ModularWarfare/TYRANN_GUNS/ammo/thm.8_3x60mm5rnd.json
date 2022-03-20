@@ -1,0 +1,10 @@
+{
+    "internalName": "thm.8_3x60mm5rnd",
+    "displayName": "8.6x60mm MF03 5Rnd",
+
+    "ammoCapacity": 5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "thm.7_92x57"
+    ]
+}

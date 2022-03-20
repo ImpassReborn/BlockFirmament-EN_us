@@ -1,0 +1,22 @@
+{
+    "internalName": "thm.7_92x57mag150",
+    "displayName": "7.92x57mm 150Rnd Mg03",
+
+    "ammoCapacity": 150,
+    "magazineCount": 1,
+    "subAmmo": [
+        "thm.7_92x57"
+    ],
+
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+    "reloadTimeFactor": 1.8,
+
+    "allowEmptyMagazines": true,
+    "modelSkins": [
+        {
+            "skinAsset": "thm.7_92x57mag150",
+            "displayName": "Default"
+        }
+    ]
+}

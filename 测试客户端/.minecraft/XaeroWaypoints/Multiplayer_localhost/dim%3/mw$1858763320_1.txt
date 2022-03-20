@@ -1,0 +1,14 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
+#
+waypoint:Asma dock:A:-1996:109:1314:6:false:0:gui.xaero_default:false:0:true
+waypoint:Bosceoya Mountain:B:-1859:160:1530:3:false:0:gui.xaero_default:false:0:true
+waypoint:Hagledor:H:-1603:159:1402:3:false:0:gui.xaero_default:false:0:true
+waypoint:Wugleau:W:-1502:124:1315:3:false:0:gui.xaero_default:false:0:true
+waypoint:Struarus wilderness:S:-1702:116:1192:3:false:0:gui.xaero_default:false:0:false
+waypoint:Claystein branch:C:-1460:110:1194:3:false:0:gui.xaero_default:false:0:true
+waypoint:Uskana wilderness:U:-1562:142:1213:3:false:0:gui.xaero_default:false:0:true
+waypoint:Patrick Bar:P:-1607:144:1528:13:false:0:gui.xaero_default:false:0:true
+waypoint:Ekales Food Shop:E:-1587:142:1524:13:false:0:gui.xaero_default:false:0:true
+waypoint:Ekales Building Market:E:-1562:147:1476:13:false:0:gui.xaero_default:false:0:true
+waypoint:Potion shop [ T1 ]:P:-1584:142:1478:13:false:0:gui.xaero_default:false:0:true
